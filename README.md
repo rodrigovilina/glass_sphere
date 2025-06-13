@@ -1,11 +1,10 @@
-# Crystalball
+# GlassSphere
 
-Crystalball is a Ruby library which implements [Regression Test Selection mechanism](https://tenderlovemaking.com/2015/02/13/predicting-test-failues.html) originally published by Aaron Patterson.
-Its main purpose is to select a minimal subset of your test suite which should be run to ensure your changes didn't break anything.
-
-[![Build Status](https://travis-ci.org/toptal/crystalball.svg?branch=master)](https://travis-ci.org/toptal/crystalball)
-[![Maintainability](https://api.codeclimate.com/v1/badges/c8bfc25a43a1a2ecf964/maintainability)](https://codeclimate.com/github/toptal/crystalball/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/c8bfc25a43a1a2ecf964/test_coverage)](https://codeclimate.com/github/toptal/crystalball/test_coverage)
+GlassSphere is a Ruby library which implements 
+[Regression Test Selection mechanism][1] originally published by Aaron
+Patterson.
+Its main purpose is to select a minimal subset of your test suite which should
+be run to ensure your changes didn't break anything.
 
 ## Installation
 
@@ -13,7 +12,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 group :test do
-  gem 'crystalball'
+  gem 'glass_sphere'
 end
 ```
 
@@ -23,29 +22,35 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install crystalball
+    $ gem install glass_sphere
 
 ## Usage
 
-Please see our [official documentation](https://toptal.github.io/crystalball/).
+Please see our [official documentation][2].
 
 ### Versioning
 
-We use [semantic versioning](https://semver.org/) for our [releases](https://github.com/toptal/crystalball/releases).
+We use [semantic versioning][3] for our [releases][4].
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies. Then, run
+`rake spec` to run the tests. You can also run `bin/console` for an interactive
+prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/toptal/crystalball.
-This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at
+https://github.com/rodrigovilina/glass_sphere.
 
 ## License
 
-Crystalball is released under the [MIT License](https://opensource.org/licenses/MIT).
+GlassSphere is released under the
+[MIT License](https://opensource.org/licenses/MIT).
 
-
+[1]: https://tenderlovemaking.com/2015/02/13/predicting-test-failues.html
+[2]: https://rodrigovilina.github.io/glass_sphere/
+[3]: https://semver.org/
+[4]: https://github.com/rodrigovilina/glass_sphere/releases
