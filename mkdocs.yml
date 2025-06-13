@@ -1,7 +1,6 @@
-site_name: Crystalball Manual
-repo_url: https://github.com/toptal/crystalball
+site_name: GlassSphere Manual
+repo_url: https://github.com/rodrigovilina/glass_sphere
 edit_uri: edit/master/docs/
-#google_analytics: ['-', 'auto']
 theme:
   name: material
   logo: img/logo.png
@@ -15,7 +14,7 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
-copyright: 'Copyright &copy; 2013 - 2018 Toptal'
+copyright: 'Copyright &copy; 2013 - 2018 Toptal, 2025 Rodrigo Vilina'
 pages:
   - Home: index.md
   - "Map Generators": map_generators.md
