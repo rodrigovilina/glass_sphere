@@ -16,6 +16,7 @@
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
+require 'simplecov'
 require_relative '../lib/glass_sphere'
 
 RSpec.configure do |config|
